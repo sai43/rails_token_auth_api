@@ -5,6 +5,6 @@ Rails.application.routes.draw do
     get :preview, on: :collection
   end
 
-  root 'episodes#index'
+  root 'posts#index'
 
 end
